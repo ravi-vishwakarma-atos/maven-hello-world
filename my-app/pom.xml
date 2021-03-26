@@ -131,11 +131,11 @@
 <distributionManagement>
 <repository>
 <id>my-nexus</id>
-<url>http://10.128.0.7:8081/repository/mavennexus/
+<url>http://10.128.0.7:8081/repository/mavennexus/ </url>
 </repository>
 <snapshotRepository>
 <id>my-nexus</id>
-<url>http://10.128.0.7:8081/repository/mavennexus/
+<url>http://10.128.0.7:8081/repository/mavennexus/ </url>
 </snapshotRepository>
 </distributionManagement>  
   
