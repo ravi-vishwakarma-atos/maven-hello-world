@@ -121,7 +121,7 @@
 </executions>
 <configuration>
 <serverId>my-nexus</serverId>
-<nexusUrl>http://10.128.0.7:8081/nexus/
+<nexusUrl>http://10.128.0.7:8081/nexus/ </nexusUrl>
 <skipStaging>true</skipStaging>
 </configuration>
 </plugin>
