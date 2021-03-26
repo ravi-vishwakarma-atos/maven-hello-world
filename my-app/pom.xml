@@ -121,7 +121,7 @@
 </executions>
 <configuration>
 <serverId>my-nexus</serverId>
-<nexusUrl>http://10.128.0.7:8081/nexus/ </nexusUrl>
+<nexusUrl>http://10.128.0.15:8081/nexus/ </nexusUrl>
 <skipStaging>true</skipStaging>
 </configuration>
 </plugin>
@@ -131,11 +131,11 @@
 <distributionManagement>
 <repository>
 <id>my-nexus</id>
-<url>http://10.128.0.7:8081/repository/mavennexus/ </url>
+<url>http://10.128.0.15:8081/repository/maven-nexus/</url>
 </repository>
 <snapshotRepository>
 <id>my-nexus</id>
-<url>http://10.128.0.7:8081/repository/mavennexus/ </url>
+<url>http://10.128.0.15:8081/repository/maven-nexus/</url>
 </snapshotRepository>
 </distributionManagement>  
   
